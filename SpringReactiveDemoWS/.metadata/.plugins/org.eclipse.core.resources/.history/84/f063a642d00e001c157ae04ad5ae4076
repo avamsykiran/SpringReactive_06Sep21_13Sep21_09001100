@@ -1,0 +1,28 @@
+package com.cts.rjd.service;
+
+import io.reactivex.ObservableOnSubscribe;
+
+public class NumberSeriesGeneratorReactiveService implements Runnable,ObservableOnSubscribe<Integer>{
+
+	private int lowerBound;
+	private int upperBound;
+	
+	public NumberSeriesGeneratorReactiveService(int lowerBound, int upperBound) {
+		super();
+		this.lowerBound = lowerBound;
+		this.upperBound = upperBound;
+	}
+
+	@Override
+	public void run() {
+		for(int n=lowerBound;n<=upperBound;n++) {
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println(n);
+		}
+	}
+}

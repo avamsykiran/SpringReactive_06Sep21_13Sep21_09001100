@@ -1,0 +1,19 @@
+package com.cts.rjd.ui;
+
+import com.cts.rjd.service.NumberSeriesGeneratorReactiveService;
+import com.cts.rjd.service.NumberSeriesGeneratorService;
+
+public class App02 {
+
+	public static void main(String[] args) {
+
+		NumberSeriesGeneratorReactiveService nss = new NumberSeriesGeneratorReactiveService(100, 25);
+		
+		nss.getObservable().subscribe(
+				ele -> System.out.println(ele), 
+				exp -> System.out.println("Error "+ exp.getMessage()), 
+				() -> System.out.println("Job Accomplished")
+				);
+	}
+
+}
