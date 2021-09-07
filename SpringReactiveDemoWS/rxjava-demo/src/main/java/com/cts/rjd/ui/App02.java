@@ -13,7 +13,6 @@ public class App02 {
 				exp -> System.out.println("Error "+ exp.getMessage()), 
 				() -> System.out.println("Job1 Accomplished")
 				);
-		
 
 		NumberSeriesGeneratorReactiveService nss2 = new NumberSeriesGeneratorReactiveService(125,150);
 		

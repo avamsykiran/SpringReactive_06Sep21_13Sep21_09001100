@@ -1,0 +1,15 @@
+package com.cts.rjd.service;
+
+import java.util.concurrent.TimeUnit;
+
+import io.reactivex.Observable;
+import io.reactivex.Scheduler;
+import io.reactivex.schedulers.Schedulers;
+
+public class IntervalAndSchedularExample {
+
+	public Observable<Long> getIntervals(){
+		//return Observable.interval(1000, 500, TimeUnit.MILLISECONDS, Schedulers.single());
+		return Observable.interval(0, 500, TimeUnit.MILLISECONDS, Schedulers.single());
+	}
+}

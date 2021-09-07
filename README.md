@@ -6,6 +6,7 @@ Spring Reactive
     =============================================================
         Java 8 Features
             Java Streams API
+            Lamdba Expressions
 
         NoSQL Database
             MongoDB
@@ -43,7 +44,6 @@ Spring Reactive
                                                                 UI receive the data and put it on the screnn
                                                                     and until the the ui has to wait...
 
-
         Asynchronous way of doing it
         ------------------------------------------------------------
         1000 records in a database
@@ -56,7 +56,7 @@ Spring Reactive
                                                                     and until the the ui has to wait...
 
 
-        Reactive Programming (Evetn Driven + Asynchronous) way of doing it
+        Reactive Programming (Event Driven + Asynchronous) way of doing it
         ------------------------------------------------------------
         1000 records in a database
                 DAO      to retrive all data
@@ -70,7 +70,6 @@ Spring Reactive
                                                     OnNext     react to the onnext event, recive the data an display
                                                     OnError    react to the error
                                                     OnComplete  then job is accomplished,
-
 
             ReactiveX
                         Manifesto
@@ -179,12 +178,3 @@ Spring Reactive
             is a support           Ractive Framework
             for non-blocking
             process 
-
-
-
-        1,2,3,4,5
-
-        sum(sum(sum(sum(1,2)),3),4),5)
-
-
-        

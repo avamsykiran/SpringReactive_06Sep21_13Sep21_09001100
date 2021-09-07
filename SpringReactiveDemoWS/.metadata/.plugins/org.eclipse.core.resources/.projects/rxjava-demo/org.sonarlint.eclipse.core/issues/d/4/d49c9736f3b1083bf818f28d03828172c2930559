@@ -1,0 +1,21 @@
+
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Áƒì¦8Ëá²Ì»/H$RMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(¤ÕðËÿÿÿÿÿ8¶ßªÌ»/HRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(›Ÿªž8Ëá²Ì»/H#RMAJORZ
+CODE_SMELL
+^
+java:S1612",Replace this lambda with a method reference.(Áƒì¦8¶ßªÌ»/HRMINORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(ò™¬Óüÿÿÿÿ8¶ßªÌ»/HRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Áƒì¦8¶ßªÌ»/HRMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(¢‘ÊÛúÿÿÿÿ8Ëá²Ì»/H%RMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(¤ÕðËÿÿÿÿÿ8ÍÒ°Ì»/H RMAJORZ
+CODE_SMELL
+^
+java:S1612",Replace this lambda with a method reference.(Áƒì¦8Ëá²Ì»/H"RMINORZ
+CODE_SMELL
