@@ -168,8 +168,7 @@ Spring Reactive
 
             Thus leaves no significance to use RxJava on Spring though it is possible.
 
-
-            Streams API     vs      Project Reactor
+            Streams API     vs     Project Reactor
             -----------------------------------------------------------
             Not Asynchronous       Asynchronous
 

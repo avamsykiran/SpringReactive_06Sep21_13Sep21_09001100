@@ -3,6 +3,15 @@
 <fullyQualifiedTypeName name="com.cts.rjd.service.NumberSeriesGeneratorService"/>
 <fullyQualifiedTypeName name="io.reactivex.ObservableOnSubscribe"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="io.reactivex.Observable"/>
 <fullyQualifiedTypeName name="com.cts.rjd.service.NumberSeriesGeneratorReactiveService"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.cts.rjd.service.GreetProviderService"/>
+<fullyQualifiedTypeName name="io.reactivex.Observable"/>
+<fullyQualifiedTypeName name="com.cts.rjd.service.IntervalAndSchedularExample"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="io.reactivex.Scheduler"/>
+<fullyQualifiedTypeName name="io.reactivex.schedulers.Schedulers"/>
+<fullyQualifiedTypeName name="io.reactivex.internal.observers.BlockingFirstObserver"/>
 </qualifiedTypeNameHistroy>
