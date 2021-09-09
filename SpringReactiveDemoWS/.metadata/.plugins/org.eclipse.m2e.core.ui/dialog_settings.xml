@@ -47,9 +47,11 @@
 			<item value="com.cts"/>
 		</list>
 		<list key="name">
+			<item value="ReactorDemo"/>
 			<item value="RXJavaDemo"/>
 		</list>
 		<list key="artifactId">
+			<item value="reactor-demo"/>
 			<item value="rxjava-demo"/>
 		</list>
 		<list key="projectNameTemplate">
